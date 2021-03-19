@@ -87,5 +87,5 @@ if __name__ == '__main__':
     if obj.solve_sudoku():
         end = time.time()
         obj.autoSolver(grid)
-
+    print(grid)
 print(f"Solved In {round(end - start, 2)}S!")
